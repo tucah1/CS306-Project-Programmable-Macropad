@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StreamDeckSettings</class>
+ <widget class="QMainWindow" name="StreamDeckSettings">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>764</width>
+    <height>511</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Macropad Settings</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow {
+	border:none;
+	background-color: #003249;
+
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame1">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>50</y>
+      <width>181</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+background-color: #007ea7;
+border: 1px solid white;
+border-radius:10px;
+color:#fff
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="name1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>161</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+border: none; 
+border-radius: 0px;
+background-color:none;
+}</string>
+     </property>
+     <property name="text">
+      <string>Volume Up</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="editbtn1">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>110</y>
+       <width>141</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>OpenHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #003249; text-align:left; padding-left:5px; </string>
+     </property>
+     <property name="text">
+      <string>Add your  own</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="droplist1">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>70</y>
+       <width>141</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:  white;
+color: #003249;</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Select new</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Volume Up</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Volume Down</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Mute/Umute</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Take Screenshot</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Firefox</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>YouTube</string>
+      </property>
+     </item>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame2">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>50</y>
+      <width>181</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+background-color: #007ea7;
+border: 1px solid white;
+border-radius:10px;
+color:#fff
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="name2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>161</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+border: none; 
+border-radius: 0px;
+background-color:none;
+}</string>
+     </property>
+     <property name="text">
+      <string>Volume Up</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="editbtn2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>110</y>
+       <width>141</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>OpenHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #003249; text-align:left; padding-left:5px; </string>
+     </property>
+     <property name="text">
+      <string>Add your  own</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="droplist2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>70</y>
+       <width>141</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:  white;
+color: #003249;</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Select new</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Volume Up</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Volume Down</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Mute/Umute</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Take Screenshot</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Firefox</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>YouTube</string>
+      </property>
+     </item>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame3">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>50</y>
+      <width>181</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+background-color: #007ea7;
+border: 1px solid white;
+border-radius:10px;
+color:#fff
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="name3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>161</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+border: none; 
+border-radius: 0px;
+background-color:none;
+}</string>
+     </property>
+     <property name="text">
+      <string>Volume Up</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="editbtn3">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>110</y>
+       <width>141</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>OpenHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #003249; text-align:left; padding-left:5px; </string>
+     </property>
+     <property name="text">
+      <string>Add your  own</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="droplist3">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>70</y>
+       <width>141</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:  white;
+color: #003249;</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Select new</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Volume Up</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Volume Down</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Mute/Umute</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Take Screenshot</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Firefox</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>YouTube</string>
+      </property>
+     </item>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame4">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>240</y>
+      <width>181</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+background-color: #007ea7;
+border: 1px solid white;
+border-radius:10px;
+color:#fff
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="name4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>161</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+border: none; 
+border-radius: 0px;
+background-color:none;
+}</string>
+     </property>
+     <property name="text">
+      <string>Volume Up</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="editbtn4">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>110</y>
+       <width>141</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>OpenHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #003249; text-align:left; padding-left:5px; </string>
+     </property>
+     <property name="text">
+      <string>Add your  own</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="droplist4">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>70</y>
+       <width>141</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:  white;
+color: #003249;</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Select new</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Volume Up</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Volume Down</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Mute/Umute</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Take Screenshot</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Firefox</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>YouTube</string>
+      </property>
+     </item>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame5">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>240</y>
+      <width>181</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+background-color: #007ea7;
+border: 1px solid white;
+border-radius:10px;
+color:#fff
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="name5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>161</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+border: none; 
+border-radius: 0px;
+background-color:none;
+}</string>
+     </property>
+     <property name="text">
+      <string>Volume Up</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="editbtn5">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>110</y>
+       <width>141</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>OpenHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #003249; text-align:left; padding-left:5px; </string>
+     </property>
+     <property name="text">
+      <string>Add your  own</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="droplist5">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>70</y>
+       <width>141</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:  white;
+color: #003249;</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Select new</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Volume Up</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Volume Down</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Mute/Umute</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Take Screenshot</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Firefox</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>YouTube</string>
+      </property>
+     </item>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame6">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>240</y>
+      <width>181</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+background-color: #007ea7;
+border: 1px solid white;
+border-radius:10px;
+color:#fff
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="name6">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>161</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+border: none; 
+border-radius: 0px;
+background-color:none;
+}</string>
+     </property>
+     <property name="text">
+      <string>Volume Up</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="editbtn6">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>110</y>
+       <width>141</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>OpenHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #003249; text-align:left; padding-left:5px; </string>
+     </property>
+     <property name="text">
+      <string>Add your  own</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="droplist6">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>70</y>
+       <width>141</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:  white;
+color: #003249;</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Select new</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Volume Up</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Volume Down</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Mute/Umute</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Take Screenshot</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Firefox</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>YouTube</string>
+      </property>
+     </item>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>430</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:7px; background-color:#007ea7; color: white;</string>
+    </property>
+    <property name="text">
+     <string>Reset to defaults</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>764</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

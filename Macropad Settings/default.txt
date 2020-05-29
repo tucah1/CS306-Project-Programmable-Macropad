@@ -1,0 +1,6 @@
+Volume Up<##>amixer -D pulse sset Master 5%+ > /dev/null<##>
+Volume Down<##>amixer -D pulse sset Master 5%- > /dev/null<##>
+Mute/Unmute<##>amixer -q -D pulse sset Master toggle<##>
+Take Screenshot<##>gnome-screenshot<##>
+Firefox<##>firefox<##>
+Youtube<##>firefox --new-window https://www.youtube.com<##>
